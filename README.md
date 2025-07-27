@@ -148,10 +148,6 @@ oled.show()
 
 ## 🔍 Troubleshooting
 
-### Display shows scrambled/garbled output
-- **Cause**: Using SSD1306 driver on SH1106 display
-- **Solution**: Use this SH1106 driver instead
-
 ### No display output
 - Check wiring connections
 - Verify I2C address with `i2c.scan()`
